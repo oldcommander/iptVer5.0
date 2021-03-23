@@ -1,0 +1,291 @@
+/* GENEL AYARLAR */
+
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular');
+}
+
+body
+{
+    background: #fff;
+    color: : #3f3f3f;
+    font: 20px / 35px arial;
+    font-family: 'Raleway';
+}
+
+h1 
+{
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin-bottom: 22px;
+}
+
+.sectionsHeader
+{
+    background: #550D16;
+    border-bottom: 6px solid #000;
+    height: 60px;
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h3
+{
+    font-size: 16px;
+    color: #500D16;
+     transition: all .5s ease;
+}
+
+.sectionArea 
+{
+    padding: 80px 0;
+}
+
+/* YERLEŞİM DÜZENİ AYARLAR */
+
+.container
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.featuresBody .container
+{
+    justify-content: space-between;
+    
+}
+
+
+.col3 
+{
+    flex-grow: 1;
+    width: 33.33%;
+}
+
+
+/* ANA SAYFA AYARLAR */
+
+header .logo 
+
+{
+    margin-right: auto;
+}
+
+.menu li
+
+{
+    float:left;
+}
+
+.menu li a
+
+{
+    padding: 35px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;
+        
+}
+
+.menu li:hover a
+{
+    background: #500D16;
+    color: white;
+}
+
+#mainSlider
+{
+    height: 500px;
+    background: url('../img/anamenu.jpg') center center no-repeat;
+    background-size: cover;
+    
+}
+
+. slider
+{
+    width: 100&;
+}
+
+#mainCaption
+{
+    height: 500px;
+    background: rgba(0,0,0, .5);
+}
+
+.caption
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.featuresTop
+{
+    text-align: center;
+}
+
+.item
+{
+    padding: 10px 20px;
+}
+
+.zoom
+{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+
+.zoom img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+}
+
+.item .itemText
+{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #500D16;
+}
+
+.item:hover .zoom img 
+{
+    transform: scale(1.25);
+}
+
+.item:hover h3 
+{
+    color: #fff;
+}
+
+.item:hover .itemText 
+{
+    background: #500D16;
+    color: white;
+    transition: all .5s ease;
+}
+
+.btnDonustur 
+{
+    color: #500D16;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #500D16;
+     transition: all .5s ease;
+}
+
+.item:hover .btnDonustur 
+{
+    color: white;
+    border: 1px solid #fff;
+}
+
+
+.itemText
+{
+    margin: 20px 0;
+}
+
+
+footer 
+{
+    background: #500D16;
+    text-align: center;
+    
+}
+
+.footerItem 
+{
+    padding: 20px;
+}
+
+.footerItem img 
+{
+    height: 140px;
+    opacity:  .95;
+}
+
+footer h3 
+{
+    color: white;
+    font-size: 21px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+footer .fa 
+{
+    font-size: 44px;
+    color: #95A5A6;
+    line-height: 50px;
+    transition: .3s ease;
+}
+
+footer .fa:hover 
+{
+    color: #fff;
+}
+
+footer p
+{
+    color: #95A5A6;
+    font-size: 18px;
+}
+.menu li h3 
+{
+    padding: 35px 23px;
+    font-size: 18px;
+    font-style: italic;
+ 
+}
+
+.footerLinks a 
+{
+    text-decoration: none;
+    color: #95A5A6;
+    letter-spacing: 2px;
+    transition: .3s ease;
+}
+
+.footerLinks a:hover 
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.socialLinks li
+{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+}
+
+.container .uye
+{
+    margin-bottom: 75px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 35px 23px;
+}
+
+
