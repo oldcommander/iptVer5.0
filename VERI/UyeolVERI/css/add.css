@@ -1,0 +1,52 @@
+/* GENEL AYARLAR */
+
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular');
+}
+
+body
+{
+    background: #fff;
+    color: : #3f3f3f;
+    font: 20px / 35px arial;
+    font-family: 'Raleway';
+}
+
+.container 
+{
+    width: 90px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header .logo 
+
+{
+    margin-right: auto;
+}
+
+.menu li
+
+{
+    float:left;
+}
+
+.menu li a
+
+{
+    padding: 35px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;
+        
+}
+
+.menu li:hover a
+{
+    background: #500D16;
+    color: white;
+}
