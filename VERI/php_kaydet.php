@@ -1,18 +1,17 @@
 <?php
-$con=mysqli_connect("localhost","root","Kuleli172@","veri") or die("Hata");
+$con=mysqli_connect("sql113.epizy.com","epiz_28159435","1h7yc9fq","epiz_28159435_veri") or die("Hata");
 
-$Ad=$_POST['Ad'];
-$Soyad=$_POST['Soyad'];
-$E_Posta=$_POST['E_Posta'];
-$Parola=$_POST['Parola'];
-$Dogum_Tarihi=$_POST['Dogum_Tarihi'];
-$Cinsiyet=$_POST['Cinsiyet'];
+$ad=$_POST['ad'];
+$soyad=$_POST['soyad'];
+$email=$_POST['email'];
+$parola=$_POST['parola'];
 
-$sql="INSERT INTO uyeislemleri(Ad,Soyad,E_Posta,Parola,Dogum_Tarihi,Cinsiyet) VALUES('$Ad','$Soyad','$E_Posta','$Parola','$Dogum_Tarihi','$Cinsiyet')";
+
+$sql="insert into uyeislemleri(ad,soyad,email,parola) values('$ad','$soyad','$email','$parola')";
 $res=mysqli_query($con,$sql);
 
 if ($res)
-    echo "Bilgiler kaydedildi.";
+    echo header("Location:http://ahmetcekin.cf/VERI/login.html");
 else
     echo "Bilgiler kaydedilemedi.";
 mysqli_close($con);
