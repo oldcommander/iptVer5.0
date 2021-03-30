@@ -15,7 +15,7 @@
         $count = mysqli_num_rows($result);  
           
         if($count == 1 && ($username2 !="" && $password2 !="")){  
-            echo header ("Location:http://ahmetcekin.cf/VERI/jpegdonusturme.html");  
+            echo header ("Location:http://ahmetcekin.cf/VERI/goruntusıkıştırma.html");  
         }  
         else{  
             echo header ("Location:http://ahmetcekin.cf/VERI/tekrardene.html"); 

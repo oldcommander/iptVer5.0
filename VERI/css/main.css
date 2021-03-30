@@ -67,7 +67,7 @@ h3
 .col3 
 {
     flex-grow: 1;
-    width: 33.33%;
+    width: 50%;
 }
 
 
@@ -103,7 +103,7 @@ header .logo
     color: white;
 }
 
-#mainSlider
+#mainSlider2
 {
     height: 500px;
     background: url('../img/anamenu.jpg') center center no-repeat;
@@ -111,18 +111,28 @@ header .logo
     
 }
 
-. slider
+. slider2
 {
     width: 100&;
 }
 
-#mainCaption
+#mainCaption2
 {
     height: 500px;
     background: rgba(0,0,0, .5);
 }
 
 .caption
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.caption2
 {
     display: flex;
     flex-direction: column;
@@ -287,5 +297,14 @@ footer p
     text-align: center;
     padding: 35px 23px;
 }
+
+.btnDonustur2 
+{
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+
+}
+
 
 
